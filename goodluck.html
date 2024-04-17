@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>24 Card Game</title>
+  <link href="goodluck.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/x-icon" href="images/24gameProjectLogoFinal.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+</head>
+
+<body>
+  <img id="mouse" src="images/cornbread.webp" alt="" width="32" height="32">
+  <audio class="audio" controls autoplay>
+  <source src="./audio/Supermarket_Sweep.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+  <div id="topBanner">
+    <div class="hamburger">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <div id="dropdown" class="dropdown-content">
+        <a href="#">Test 1</a>
+        <a href="Battlepass/battlepass.html">Battle Pass</a>
+        <a href="#">Test 3</a>
+      </div>
+    </div>
+    <h1>Welcome to 24 Card Game</h1>
+
+  </div>
+
+  <div id="mainDiv">
+
+    <div id="utility">
+      <div id="timer">Time Remaining: 59s</div>
+      <div id="score">Score: 0</div>
+    </div>
+
+
+    <div id="cardsDiv">
+      <div id="c1" class="buttons numberButtons">1</div>
+      <div id="c2" class="buttons numberButtons">2</div>
+      <div id="c3"  class="buttons numberButtons">3</div>
+      <div id="c4"  class="buttons numberButtons">4</div>
+    </div>
+
+    <div id="operatorsDiv">
+      <!--<div id="leftParenthesisDiv" class="buttons operatorButtons">(</div>
+      <div id="rightParenthesisDiv"  class="buttons operatorButtons">)</div> -->
+      <!--Temporarily removed above because logic doesn't work with it in time for proof of concept-->
+      <div id="plusDiv" class="buttons operatorButtons">+</div>
+      <div id="minusDiv" class="buttons operatorButtons">-</div>
+      <div id="multiplyDiv" class="buttons operatorButtons">*</div>
+      <div id="divideDiv" class="buttons operatorButtons">/</div>
+    </div>
+
+    <div id="solutionsDiv">
+      <div id="userSolutionDiv" class="buttons solutionButtons"></div>
+      <div id="delete" class="buttons solutionButtons"><span class="material-symbols-outlined">backspace</span></div>
+      <div id="enter" class="buttons solutionButtons">CALCULATE</div>
+      <div id="noSolutionBtn" class="buttons solutionButtons">NO SOLUTION</div>
+      <div id="output" class="buttons solutionButtons">Output</div>
+    </div>
+  </div>
+
+  
+<!-- This creates a bug with the cards. Please don't use for the POC. I'm going to comment it out for now. Sorry Cadman :/-->
+  <!--<script src="Cadman.js"></script> -->
+  <script src="goodluck.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    /* FIX UP*/
+    /*background-image: linear-gradient(to bottom right, #357a66, #143129); */
+    background-color: #357a66;
+    color:#d3d3d3;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+}
+h1{
+    display:inline;
+    margin-bottom:15%;
+}
+a{
+    background-color: #c2fbd7;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    top: 8px;
+    right: 16px;
+    position: absolute;
+    font-weight: none;
+}
+a:hover{
+    transform: scale(1.1);
+}
+
+td{
+    border:.5px solid black;
+    border-collapse: collapse;
+    height: 100px;
+    width:100px;
+    padding:10px;
+    font-family: "Outfit", sans-serif;
+}
+Th{
+    padding:20px;
+    border:1px solid black;
+    height:30px;
+    width:70%;
+    font-family: "Outfit", sans-serif;
+    background-color: #45967f;
+    font-size: 130%;
+}
+table{
+    table-layout:fixed;
+    border-spacing: 0px;
+    border:1px solid black;
+    margin-top:1%;
+    margin-bottom:1%
+}
+
+p{
+    font-size: large;
+    text-transform: uppercase;
+    
+}
+
+#tableDiv{
+    overflow-x: scroll;
+}
+
+tr:hover {
+    background-color: #45967f;
+    font-size: 120%;
+
+}
+
+tr{
+    transition: 200ms;
+}
+
+
+/*#buyDiv{
+    font-weight: bold;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png"); 
+    background-color: #5e3425;
+}
+*/
+/* CSS */
+.button-purchase {
+  background-color: #c2fbd7;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  text-transform: uppercase;
+}
+
+.button-purchase:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.1)
+}

@@ -1,0 +1,203 @@
+.originalTheme {
+--title-color: #d39e06;
+--primary-color: #356656;
+--table-color: #5e3425;
+--card-color: #ffffff;
+--card-text-color: #000000;
+--operator-btn-color: #ffffff;
+--operator-btn-text-color: #000000;
+--solution-btn-color: #ffffff;
+--solution-btn-text-color: #000000;
+--backspace-btn-color: #D33806;
+--backspace-btn-text-color: #000000;
+--calculate-btn-color: #d39e06;
+--calculate-btn-text-color: #000000;
+--noSolution-btn-color: #9A958F;
+--noSolution-btn-text-color: #000000;
+}
+
+.lavenderTheme {
+--title-color: #F5E9BA;
+--primary-color: #9893DA;
+--table-color: #797A9E;
+--card-color: #F5E9BA;
+--card-text-color: #9893DA;
+--operator-btn-color: #9893DA;
+--operator-btn-text-color: #000000;
+--solution-btn-color: #BBBDF6;
+--solution-btn-text-color: #000000;
+--backspace-btn-color: #BBBDF6;
+--backspace-btn-text-color: #000000;
+--calculate-btn-color: #F5E9BA;
+--calculate-btn-text-color: #000000;
+--noSolution-btn-color: #BBBDF6;
+--noSolution-btn-text-color: #000000;
+--background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre-v2.png");
+}
+
+.basketballTheme {
+--title-color: #030101;
+--primary-color: #F77E56;
+--table-color: #AD593D;
+--card-color: #F77E56;
+--card-text-color: #030101;
+--operator-btn-color: #F7B267;
+--operator-btn-text-color: #030101;
+--solution-btn-color: #F77E56;
+--solution-btn-text-color: #030101;
+--backspace-btn-color: #F7B267;
+--backspace-btn-text-color: #030101;
+--calculate-btn-color: #F7B267;
+--calculate-btn-text-color: #030101;
+--noSolution-btn-color: #F7B267;
+--noSolution-btn-text-color: #030101;
+--background-image: url("https://www.transparenttextures.com/patterns/basketball.png");
+}
+
+.pinkALiciousTheme {
+--title-color: 	#ffc0cb;
+--primary-color: #ff91a4;
+--table-color: 	#ffffff;
+--card-color: #ff91a4;
+--card-text-color: #ffffff;
+--operator-btn-color: #ff91a4;
+--operator-btn-text-color: #ffffff;
+--solution-btn-color: #ff91a4;
+--solution-btn-text-color: #ffffff;
+--backspace-btn-color: #ff91a4;
+--backspace-btn-text-color: #ffffff;
+--calculate-btn-color: #ff91a4;
+--calculate-btn-text-color: #ffffff;
+--noSolution-btn-color: #ff91a4;
+--noSolution-btn-text-color: #ffffff;
+--background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+}
+
+.unicornTheme {
+--title-color: 	#ffffff;
+--primary-color: #cba3f6;
+--table-color: 	#f7f7f7;
+--card-color: #ffb8c4;
+--card-text-color: #ffffff;
+--operator-btn-color:	#a3bef6;
+--operator-btn-text-color: #ffffff;
+--solution-btn-color: #ffb3f8;
+--solution-btn-text-color: #ffffff;
+--backspace-btn-color: #cba3f6;
+--backspace-btn-text-color: #ffffff;
+--calculate-btn-color: #a3a4f6;
+--calculate-btn-text-color: #ffffff;
+--noSolution-btn-color:	#ffb3f8;
+--noSolution-btn-text-color: #ffffff;
+--background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+}
+
+.lostTreasureTheme {
+--title-color: 	#b5b5b5;
+--primary-color: #9e391a;
+--table-color: 	#c4ac7c;
+--card-color: #5e6a58;
+--card-text-color: #ffffff;
+--operator-btn-color:	#354536;
+--operator-btn-text-color: #b5b5b5;
+--solution-btn-color: #9e391a;
+--solution-btn-text-color: #b5b5b5;
+--backspace-btn-color: #9e391a;
+--backspace-btn-text-color: #b5b5b5;
+--calculate-btn-color: #9e391a;
+--calculate-btn-text-color: #b5b5b5;
+--noSolution-btn-color:	#9e391a;
+--noSolution-btn-text-color: #b5b5b5;
+--background-image: url("https://www.transparenttextures.com/patterns/old-map.png");
+}
+
+.midnightTheme {
+--title-color: 	#b5b5b5;
+--primary-color: #000000;
+--table-color: 	#222222;
+--card-color: #000000;
+--card-text-color: #ffffff;
+--operator-btn-color:	#000000;
+--operator-btn-text-color: #b5b5b5;
+--solution-btn-color: #000000;
+--solution-btn-text-color: #b5b5b5;
+--backspace-btn-color: #000000;
+--backspace-btn-text-color: #b5b5b5;
+--calculate-btn-color: #000000;
+--calculate-btn-text-color: #b5b5b5;
+--noSolution-btn-color:	#000000;
+--noSolution-btn-text-color: #b5b5b5;
+}
+
+.oceanBottomTheme {
+--title-color: #E3FEF7;
+--primary-color: #135D66;
+--table-color: #003C43;
+--card-color: #77B0AA;
+--card-text-color: #E3FEF7;
+--operator-btn-color: #77B0AA;
+--operator-btn-text-color: #E3FEF7;
+--solution-btn-color: #77B0AA;
+--solution-btn-text-color: #E3FEF7;
+--backspace-btn-color: #77B0AA;
+--backspace-btn-text-color: #E3FEF7;
+--calculate-btn-color: #77B0AA;
+--calculate-btn-text-color: #E3FEF7;
+--noSolution-btn-color: #77B0AA;
+--noSolution-btn-text-color: #E3FEF7;
+}
+
+.retro {
+--title-color: #EBF400;
+--primary-color: #000000;
+--table-color: #000000;
+--card-color: #F72798;
+--card-text-color: #000000;
+--operator-btn-color: #EBF400;
+--operator-btn-text-color: #000000;
+--solution-btn-color: #F72798;
+--solution-btn-text-color: #000000;
+--backspace-btn-color: #F57D1F;
+--backspace-btn-text-color: #000000;
+--calculate-btn-color: #EBF400;
+--calculate-btn-text-color: #000000;
+--noSolution-btn-color: #EBF400;
+--noSolution-btn-text-color: #000000;
+}
+
+.tealTheme {
+--title-color: #393E46;
+--primary-color: #00ADB5;
+--table-color: #393E46;
+--card-color: #00ADB5;
+--card-text-color: #EEEEEE;
+--operator-btn-color: #222831;
+--operator-btn-text-color: #EEEEEE;
+--solution-btn-color: #00ADB5;
+--solution-btn-text-color: #EEEEEE;
+--backspace-btn-color: #222831;
+--backspace-btn-text-color: #EEEEEE;
+--calculate-btn-color: #00ADB5;
+--calculate-btn-text-color: #EEEEEE;
+--noSolution-btn-color: #00ADB5;
+--noSolution-btn-text-color: #EEEEEE;
+}
+
+.cameronsPoolTable {
+--title-color: #00000;
+--primary-color: #462300;
+--table-color: #124502;
+--card-color: #FFFFFF;
+--card-text-color: #d20202;
+--operator-btn-color: #FFFFFF;
+--operator-btn-text-color: #000000;
+--solution-btn-color: #FFFFFF;
+--solution-btn-text-color: #000000;
+--backspace-btn-color: #d20202;
+--backspace-btn-text-color: #FFFFFF;
+--calculate-btn-color: #FFFFFF;
+--calculate-btn-text-color: #000000;
+--noSolution-btn-color: #d20202;
+--noSolution-btn-text-color: #FFFFFF;
+--background-image: url("https://www.transparenttextures.com/patterns/pool-table.png");
+}
